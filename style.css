@@ -93,6 +93,17 @@ a {
             animation: underline-gradient 6s linear infinite;
     background-image: linear-gradient(90deg, rgba(122, 95, 255, 0.8) 15%, rgba(1, 255, 137, 0.6) 35%, rgba(122, 95, 255, 0.8) 85%);
   }
+ div.container {
+    width:98%; 
+    margin:1%;
+  }
+  table#table1 {
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100px;
+  }
+  tr,td {text-align:left;}
   
   @-webkit-keyframes underline-gradient {
     0% {
